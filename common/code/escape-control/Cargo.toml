@@ -1,0 +1,14 @@
+[package]
+name = "escape-control"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serial2 = "0.2.2"
+dialoguer = "0.11.0"
+crossterm = "0.27.0"
+anyhow = "1.0.75"
+crossbeam = "0.8.2"
+rusty_audio = "1.4.1"
